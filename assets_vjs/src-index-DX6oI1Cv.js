@@ -6,14 +6,27 @@ const copy = {
   title:'Ultimate Guide to UK Hotels with Onsite Casinos and Slots',
   intro:"The sophisticated combination of hospitality and entertainment appears at hotels that provide complete facilities for casinos in the centre of Britain's cities and luxurious countryside areas. These facilities deliver an enjoyable all-around experience which satisfies residence needs along with entertainment excitement for people from different regions.",
   sections:[
-    ['The Evolution of Casino Hotels in Britain','Casino hotels in Britain experienced major development from the 1960s until now following the Gaming Act which transformed basic gaming spaces into fully-developed entertainment centres. Modern casino hotels merge accommodations with eating establishments and gambling activities and deliver advanced slots machines and table games which offer continuous entertainment throughout the day to their guests.'],
-    ['Premier Destinations Across the Kingdom','Many prestigious casino hotels operate in London where Mayfair stands as the district that houses several internationally recognised establishments. Beyond London, significant casino hotels dot the landscape of major cities like Manchester, Birmingham, and Edinburgh. Each property showcases a distinct architectural appeal while maintaining high service standards and a wide array of gaming options.'],
-    ['Accommodation and Amenities','UK casino hotels provide hotel services above what standard hotels do. Rooms and suites may include advanced security systems, private check-in stations, VIP gaming access, butler service, in-room dining, and elite entertainment services throughout the premises.'],
-    ['Entertainment Beyond Gaming','Modern casinos provide guests with rich entertainment options beyond gaming, including jazz lounges, theatrical performances, spas, fitness facilities, private movie theatres, restaurants, and bars with unique designs that match various needs and preferences.'],
-    ['Business and Events','UK casino hotels have become attractive destinations for business groups and private celebration organizers. Many properties present sophisticated conference facilities, meeting rooms, event spaces, and modern technical equipment.'],
-    ['Location and Accessibility','Prime locations are carefully planned. London casino hotels offer airport connections through Heathrow and Gatwick, rail transport options, parking areas, and regional access. Some luxury properties serving high-roller guests may also offer premium arrival services.'],
-    ['Technology and Innovation','High-tech innovations exist throughout casino hotels to elevate guest benefits. Advanced security systems, smart room controls, and mobile interfaces allow visitors to manage their stay with simple commands while preserving luxury hospitality.'],
-    ['Regulatory Compliance and Security','Casino hotels need to follow UK gaming regulations with trained personnel, advanced security systems, and sophisticated access controls. The sector presents an exclusive combination of luxury accommodation, entertainment, business services, and distinctive travel experiences.']
+    sections:[
+  ['5-Star Casino Hotels','Experience the comfort of premium 5-star casino hotels offering elegant accommodation, exceptional dining, modern gaming floors, and entertainment for every type of traveller. Whether you are planning a weekend escape or an extended holiday, luxury casino hotels combine relaxation with exciting nightlife in one destination.'],
+
+  ['Best Casino Hotels Near You','Discover some of the best casino hotels near you with stylish rooms, quality restaurants, exciting slot areas, table games, and live entertainment. Many destinations also feature wellness facilities, shopping, and attractions that make every visit memorable.'],
+
+  ['Book a Casino Hotel Now','Booking a casino hotel has never been easier. Compare popular destinations, explore accommodation options, and find exclusive hotel packages that include dining, entertainment, and premium guest services designed for every budget.'],
+
+  ['Casino Resorts & Deals','Casino resorts regularly feature seasonal promotions, accommodation packages, dining specials, and entertainment offers. From luxury suites to relaxing spa experiences, guests can enjoy excellent value while experiencing world-class hospitality.'],
+
+  ['Ultimate Casino Hotel Stay','Create the ultimate casino hotel experience by staying at destinations that combine comfortable accommodation, exciting gaming, fine dining, stylish bars, and live performances. Many resorts also provide fitness centres, pools, and premium guest services.'],
+
+  ['Top Casino Resorts Today','Today's leading casino resorts deliver far more than gaming. Visitors can enjoy award-winning restaurants, luxury accommodation, shopping, wellness facilities, live music, sporting events, and vibrant nightlife all within a single destination.'],
+
+  ['Casino Hotels','Casino hotels continue to attract travellers looking for convenient accommodation alongside entertainment. Whether visiting a city centre or a resort destination, guests can enjoy comfortable rooms, professional service, restaurants, and exciting gaming experiences.'],
+
+  ['Casino Resorts','Modern casino resorts are complete entertainment destinations featuring hotels, gaming floors, swimming pools, spas, conference facilities, retail stores, and family-friendly attractions. Every resort offers its own unique atmosphere and guest experience.'],
+
+  ['Casino Lounge Bar','Relax in sophisticated casino lounge bars serving premium cocktails, wines, beers, and signature drinks. Many venues also offer live music, comfortable seating, sporting events on large screens, and a welcoming atmosphere throughout the day and evening.'],
+
+  ['Casino Sport Lounges','Casino sport lounges provide comfortable spaces to watch major sporting events while enjoying food, drinks, and entertainment. With large HD screens, premium seating, and lively surroundings, they offer an enjoyable social experience for sports fans.']
+]
   ],
   age:'This website is for users aged 18+. Please confirm you are 18 or over to proceed.',
   confirm:'Yes, I’m 18+'
@@ -55,7 +68,27 @@ function buildApp(shadow){
         h('form',{class:'form'},[input('name','Your name'),input('email','Email address','email'),h('button',{type:'submit',text:'Sign Up'})]),
         h('div',{class:'notice',style:'display:none',text:'Thanks. Your signup was saved on this browser.'})
       ]),
-      h('footer',{class:'footer',text:'Information guide for adults 18+. Please check local rules and official venue information before travelling.'})
+      h('footer',{class:'footer'},[
+  h('p',{text:'Information guide for adults 18+. Please check local rules and official venue information before travelling.'}),
+  h('p',{text:'This site is operated by CONSTANTIN BARDEANU.'}),
+  h('p',{},[
+    h('a',{
+      href:'https://www.wildfi.com/',
+      target:'_blank',
+      rel:'noopener noreferrer',
+      text:'Privacy Policy'
+    })
+  ]),
+  h('p',{},[
+    document.createTextNode('Montaña 853'),
+    h('br',{}),
+    document.createTextNode('2520000 Viña del Mar'),
+    h('br',{}),
+    document.createTextNode('Valparaíso'),
+    h('br',{}),
+    document.createTextNode('Chile')
+  ])
+])
     ])
   ]);
   const form=app.querySelector('form');
