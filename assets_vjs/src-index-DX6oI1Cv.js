@@ -6,7 +6,6 @@ const copy = {
   title:'Ultimate Guide to UK Hotels with Onsite Casinos and Slots',
   intro:"The sophisticated combination of hospitality and entertainment appears at hotels that provide complete facilities for casinos in the centre of Britain's cities and luxurious countryside areas. These facilities deliver an enjoyable all-around experience which satisfies residence needs along with entertainment excitement for people from different regions.",
   sections:[
-    sections:[
   ['5-Star Casino Hotels','Experience the comfort of premium 5-star casino hotels offering elegant accommodation, exceptional dining, modern gaming floors, and entertainment for every type of traveller. Whether you are planning a weekend escape or an extended holiday, luxury casino hotels combine relaxation with exciting nightlife in one destination.'],
 
   ['Best Casino Hotels Near You','Discover some of the best casino hotels near you with stylish rooms, quality restaurants, exciting slot areas, table games, and live entertainment. Many destinations also feature wellness facilities, shopping, and attractions that make every visit memorable.'],
